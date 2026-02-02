@@ -18,6 +18,8 @@
 6. After the operation is complete, reconnect the data cable and download 'log.txt' to the computer. It contains the current and voltage data read according to the design.
 
 ## Project Structure
+```text
+.
 4wd-robot-power-project/
 ├── src/
 │    ├── main-code/    # Set to 'main.py' on Pico
