@@ -21,3 +21,7 @@
 - Python (MicroPython)
 - Raspberry Pico RPD
 - I2C Protocal
+
+## Author
+Name: Li, Jiulin (Jiulin Li)
+Email: li18661390991@gmail.com or li18661390991@163.com
