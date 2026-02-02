@@ -31,6 +31,7 @@
 ├── hardware/    # Circuit diagram and sensor connection instructions
 ├── analysis/    # Data Analysis Scripts / Result Charts
 └── README.md
+```
 
 ## Tech Stack
 - Python (MicroPython)
