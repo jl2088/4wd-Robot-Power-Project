@@ -19,7 +19,6 @@
 
 ## Project Structure
 ```text
-.
 4wd-robot-power-project/
 ├── src/
 │    ├── main-code/    # Set to 'main.py' on Pico
