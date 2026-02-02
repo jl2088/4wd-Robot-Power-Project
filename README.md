@@ -17,6 +17,19 @@
 5. Connect the robot to a mobile power source (supercapacitor or battery). Restart the robot, and the Pico will automatically execute the script 'main.py'.
 6. After the operation is complete, reconnect the data cable and download 'log.txt' to the computer. It contains the current and voltage data read according to the design.
 
+## Project Structure
+4wd-robot-power-project/
+├── src/
+│    ├── main-code/    # Set to 'main.py' on Pico
+│    │      ├── motors-reading/
+│    │      ├── RGB-reading/
+│    │      └── Stepped-RGB-reading/
+│    └── test-code/    # INA3221-Testing
+├── data-collection/    # File log.txt
+├── hardware/    # Circuit diagram and sensor connection instructions
+├── analysis/    # Data Analysis Scripts / Result Charts
+└── README.md
+
 ## Tech Stack
 - Python (MicroPython)
 - Raspberry Pico RPD
