@@ -21,14 +21,16 @@
 ```text
 4wd-robot-power-project/
 ├── src/
-│    ├── main-code/    # Set to 'main.py' on Pico
-│    │      ├── motors-reading/
-│    │      ├── RGB-reading/
-│    │      └── Stepped-RGB-reading/
-│    └── test-code/    # INA3221-Testing
-├── data-collection/    # File log.txt
-├── hardware/    # Circuit diagram and sensor connection instructions
-├── analysis/    # Data Analysis Scripts / Result Charts
+│    ├── main-code/                    # Set to 'main.py' on Pico
+│    │      ├── motors-reading/        # Running motors
+│    │      ├── RGB-reading/           # Test all colors
+│    │      └── Stepped-RGB-reading/   # Test R, G and B from 25% to 100%
+│    └── test-code/                    # Ensure the function is activited
+│            ├── INA3221-testing/      # Robot could read current/voltage data
+│            └── writing-testing/      # Robot could write texts into file
+├── data-collection/                   # File log.txt
+├── hardware/                          # Circuit diagram and sensor connection instructions
+├── analysis/                          # Data Analysis Scripts / Result Charts
 └── README.md
 ```
 
